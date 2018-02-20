@@ -30,6 +30,7 @@ dependencies {
 	compile('org.projectlombok:lombok:1.16.16')
 	compile group: 'org.springframework.integration', name: 'spring-integration-jms', version: '4.3.12.RELEASE'
 	compile group: 'org.apache.activemq', name: 'activemq-jms-pool', version: '5.15.3'
+	compile('com.fasterxml.jackson.core:jackson-databind:2.6.3')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.springframework.security:spring-security-test')
 	testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
